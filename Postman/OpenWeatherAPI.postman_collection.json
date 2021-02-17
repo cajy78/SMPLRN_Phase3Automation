@@ -1,0 +1,291 @@
+{
+	"info": {
+		"_postman_id": "1030ee30-e1b5-443d-b59a-c985515cfd4b",
+		"name": "OpenWeatherAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SingleCityWeatherRequest",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"cityName\",\"London\");",
+							"pm.variables.set(\"stateName\",\"England\");",
+							"pm.variables.set(\"countryCode\",\"GB\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"City Name matches\", function () {",
+							"    var jsonResponse = pm.response.json();",
+							"    pm.expect(jsonResponse.name).to.eql(\"London\");",
+							"});",
+							"",
+							"pm.test(\"Country Code matches\", function(){",
+							"    var jsonResponse = pm.response.json();",
+							"    pm.expect(jsonResponse.sys.country).to.eql(\"GB\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{openweather_url}}/data/2.5/weather?q={{cityName}},{{countryCode}}&appid={{api_key}}",
+					"host": [
+						"{{openweather_url}}"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{{cityName}},{{countryCode}}"
+						},
+						{
+							"key": "appid",
+							"value": "{{api_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SingleCityByIDWeatherRequest",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"cityID\",\"2172797\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"City Name matches\", function () {",
+							"    var jsonResponse = pm.response.json();",
+							"    pm.expect(jsonResponse.name).to.eql(\"Cairns\");",
+							"});",
+							"",
+							"pm.test(\"City Code matches\", function(){",
+							"    var jsonResponse = pm.response.json();",
+							"    pm.expect(jsonResponse.id).to.eql(2172797);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{openweather_url}}/data/2.5/weather?id={{cityID}}&appid={{api_key}}",
+					"host": [
+						"{{openweather_url}}"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "{{cityID}}"
+						},
+						{
+							"key": "appid",
+							"value": "{{api_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LocationWeatherByCoordinatesRequest",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"latitude\",35);",
+							"pm.variables.set(\"longitude\",139);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"City Name matches\", function () {",
+							"    var jsonResponse = pm.response.json();",
+							"    pm.expect(jsonResponse.name).to.eql(\"Shuzenji\");",
+							"});",
+							"",
+							"pm.test(\"Country Code matches\", function(){",
+							"    var jsonResponse = pm.response.json();",
+							"    pm.expect(jsonResponse.sys.country).to.eql(\"JP\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{openweather_url}}/data/2.5/weather?lat={{latitude}}&lon={{longitude}}&appid={{api_key}}",
+					"host": [
+						"{{openweather_url}}"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "{{latitude}}"
+						},
+						{
+							"key": "lon",
+							"value": "{{longitude}}"
+						},
+						{
+							"key": "appid",
+							"value": "{{api_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CityWeatherByZipAndCountryCodeRequest",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"zipCode\",\"400604\");",
+							"pm.variables.set(\"countryCode\", \"in\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"City Name matches\", function () {",
+							"    var jsonResponse = pm.response.json();",
+							"    pm.expect(jsonResponse.name).to.eql(\"Wagle I.E.\");",
+							"});",
+							"",
+							"pm.test(\"Country Code matches\", function(){",
+							"    var jsonResponse = pm.response.json();",
+							"    pm.expect(jsonResponse.sys.country).to.eql(\"IN\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{openweather_url}}/data/2.5/weather?zip={{zipCode}},{{countryCode}}&appid={{api_key}}",
+					"host": [
+						"{{openweather_url}}"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "zip",
+							"value": "{{zipCode}},{{countryCode}}"
+						},
+						{
+							"key": "appid",
+							"value": "{{api_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "openweather_url",
+			"value": "api.openweathermap.org"
+		},
+		{
+			"key": "api_key",
+			"value": "2043a4b6bf924c620ecbb8332f822583"
+		}
+	]
+}

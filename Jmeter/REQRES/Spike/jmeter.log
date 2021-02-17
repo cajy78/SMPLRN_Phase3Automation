@@ -1,0 +1,757 @@
+2021-02-17 09:46:29,835 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-02-17 09:46:29,874 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4/libexec/bin/user.properties
+2021-02-17 09:46:29,875 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4/libexec/bin/system.properties
+2021-02-17 09:46:29,888 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-02-17 09:46:29,889 INFO o.a.j.JMeter: Version 5.4
+2021-02-17 09:46:29,889 INFO o.a.j.JMeter: java.version=15.0.1
+2021-02-17 09:46:29,889 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-02-17 09:46:29,889 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-02-17 09:46:29,889 INFO o.a.j.JMeter: os.arch=x86_64
+2021-02-17 09:46:29,890 INFO o.a.j.JMeter: os.version=10.15.7
+2021-02-17 09:46:29,890 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-02-17 09:46:29,890 INFO o.a.j.JMeter: java.awt.headless=true
+2021-02-17 09:46:29,890 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-02-17 09:46:29,890 INFO o.a.j.JMeter: Available Processors =4
+2021-02-17 09:46:29,904 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-02-17 09:46:29,904 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-02-17 09:46:29,905 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4/libexec
+2021-02-17 09:46:29,905 INFO o.a.j.JMeter: user.dir  =/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike
+2021-02-17 09:46:29,905 INFO o.a.j.JMeter: PWD       =/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike
+2021-02-17 09:46:29,908 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Cajetans-MacBook-Pro.local FullName: localhost
+2021-02-17 09:46:29,914 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike/HTMLReports'
+2021-02-17 09:46:29,919 INFO o.a.j.s.FileServer: Default base='/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike'
+2021-02-17 09:46:29,921 INFO o.a.j.s.FileServer: Set new base='/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike'
+2021-02-17 09:46:30,216 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-02-17 09:46:30,258 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-02-17 09:46:30,266 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-02-17 09:46:30,271 INFO o.a.j.s.SaveService: Loading file: REQRES_Test_Plan_Spike.jmx
+2021-02-17 09:46:30,360 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-17 09:46:30,360 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-17 09:46:30,360 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-17 09:46:30,360 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-17 09:46:30,360 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-02-17 09:46:30,361 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-02-17 09:46:30,440 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-02-17 09:46:30,446 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-02-17 09:46:30,447 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike/results.csv
+2021-02-17 09:46:30,447 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /usr/local/Cellar/jmeter/5.4/libexec/bin/reportgenerator.properties
+2021-02-17 09:46:30,449 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-02-17 09:46:30,457 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-02-17 09:46:30,461 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-02-17 09:46:30,462 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-02-17 09:46:30,462 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-02-17 09:46:30,462 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-02-17 09:46:30,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-02-17 09:46:30,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-02-17 09:46:30,463 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-02-17 09:46:30,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-02-17 09:46:30,471 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,471 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,471 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,471 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,472 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,472 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,472 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,472 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,473 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,473 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:46:30,474 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-02-17 09:46:30,475 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-02-17 09:46:30,475 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-02-17 09:46:30,476 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-02-17 09:46:30,476 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-02-17 09:46:30,476 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-02-17 09:46:30,485 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-02-17 09:46:30,486 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-02-17 09:46:30,486 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-02-17 09:46:30,495 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-02-17 09:46:30,495 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-02-17 09:46:30,604 INFO o.a.j.JMeter: Running test (1613535390604)
+2021-02-17 09:46:30,633 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : REQRES_REQUESTS_Ultimate_Thread_Group
+2021-02-17 09:46:30,634 INFO o.a.j.e.StandardJMeterEngine: Starting 200 threads for group REQRES_REQUESTS_Ultimate_Thread_Group.
+2021-02-17 09:46:30,634 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-02-17 09:46:30,634 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 200
+2021-02-17 09:46:30,875 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2021-02-17 09:46:30,875 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-02-17 09:46:33,039 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-25
+2021-02-17 09:46:33,092 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Cajetans-MacBook-Pro.local
+2021-02-17 09:46:33,107 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-02-17 09:46:33,110 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-02-17 09:46:33,111 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-02-17 09:46:33,111 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-02-17 09:46:33,111 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-02-17 09:46:33,285 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-02-17 09:46:33,297 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-02-17 09:46:33,297 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-02-17 09:46:33,535 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-02-17 09:46:33,538 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-02-17 09:46:33,538 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-02-17 09:46:34,028 INFO o.a.j.r.Summariser: summary +      1 in 00:00:03 =    0.3/s Avg:   792 Min:   792 Max:   792 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2021-02-17 09:46:35,436 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-24
+2021-02-17 09:46:37,839 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-23
+2021-02-17 09:46:40,240 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-22
+2021-02-17 09:46:42,636 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-21
+2021-02-17 09:46:45,039 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-20
+2021-02-17 09:46:47,435 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-19
+2021-02-17 09:46:49,836 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-18
+2021-02-17 09:46:50,635 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-46
+2021-02-17 09:46:50,635 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-48
+2021-02-17 09:46:50,635 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-42
+2021-02-17 09:46:50,635 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-37
+2021-02-17 09:46:50,635 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-45
+2021-02-17 09:46:50,636 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-41
+2021-02-17 09:46:50,637 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-39
+2021-02-17 09:46:50,637 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-40
+2021-02-17 09:46:50,638 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-50
+2021-02-17 09:46:50,639 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-38
+2021-02-17 09:46:50,639 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-26
+2021-02-17 09:46:50,640 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-27
+2021-02-17 09:46:50,640 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-32
+2021-02-17 09:46:50,641 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-34
+2021-02-17 09:46:50,642 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-31
+2021-02-17 09:46:50,642 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-35
+2021-02-17 09:46:50,643 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-43
+2021-02-17 09:46:50,643 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-47
+2021-02-17 09:46:50,635 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-44
+2021-02-17 09:46:50,635 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-49
+2021-02-17 09:46:50,642 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-36
+2021-02-17 09:46:50,642 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-30
+2021-02-17 09:46:50,641 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-33
+2021-02-17 09:46:50,639 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-28
+2021-02-17 09:46:50,639 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-29
+2021-02-17 09:46:52,237 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-17
+2021-02-17 09:46:54,638 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-16
+2021-02-17 09:46:57,038 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-15
+2021-02-17 09:46:59,437 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-14
+2021-02-17 09:47:00,042 INFO o.a.j.r.Summariser: summary +   2337 in 00:00:26 =   89.8/s Avg:   167 Min:   111 Max:   488 Err:   259 (11.08%) Active: 37 Started: 37 Finished: 0
+2021-02-17 09:47:00,044 INFO o.a.j.r.Summariser: summary =   2338 in 00:00:29 =   79.4/s Avg:   167 Min:   111 Max:   792 Err:   259 (11.08%)
+2021-02-17 09:47:01,834 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-13
+2021-02-17 09:47:04,236 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-12
+2021-02-17 09:47:06,636 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-11
+2021-02-17 09:47:09,035 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-10
+2021-02-17 09:47:10,637 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-33
+2021-02-17 09:47:10,638 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-33
+2021-02-17 09:47:10,646 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-39
+2021-02-17 09:47:10,647 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-39
+2021-02-17 09:47:10,650 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-44
+2021-02-17 09:47:10,650 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-44
+2021-02-17 09:47:10,653 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-35
+2021-02-17 09:47:10,653 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-35
+2021-02-17 09:47:10,654 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-42
+2021-02-17 09:47:10,655 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-42
+2021-02-17 09:47:10,657 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-31
+2021-02-17 09:47:10,657 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-31
+2021-02-17 09:47:10,659 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-37
+2021-02-17 09:47:10,659 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-37
+2021-02-17 09:47:10,666 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-34
+2021-02-17 09:47:10,667 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-34
+2021-02-17 09:47:10,670 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-48
+2021-02-17 09:47:10,670 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-48
+2021-02-17 09:47:10,685 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-38
+2021-02-17 09:47:10,685 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-46
+2021-02-17 09:47:10,685 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-38
+2021-02-17 09:47:10,685 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-46
+2021-02-17 09:47:10,688 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-40
+2021-02-17 09:47:10,689 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-40
+2021-02-17 09:47:10,691 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-32
+2021-02-17 09:47:10,692 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-32
+2021-02-17 09:47:10,697 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-43
+2021-02-17 09:47:10,697 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-43
+2021-02-17 09:47:10,697 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-41
+2021-02-17 09:47:10,698 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-41
+2021-02-17 09:47:10,707 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-29
+2021-02-17 09:47:10,707 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-29
+2021-02-17 09:47:10,709 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-47
+2021-02-17 09:47:10,709 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-47
+2021-02-17 09:47:10,726 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-36
+2021-02-17 09:47:10,726 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-36
+2021-02-17 09:47:10,730 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-49
+2021-02-17 09:47:10,731 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-49
+2021-02-17 09:47:10,732 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-30
+2021-02-17 09:47:10,732 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-30
+2021-02-17 09:47:10,758 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-45
+2021-02-17 09:47:10,759 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-45
+2021-02-17 09:47:10,766 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-26
+2021-02-17 09:47:10,766 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-26
+2021-02-17 09:47:10,794 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-27
+2021-02-17 09:47:10,794 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-27
+2021-02-17 09:47:10,817 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-50
+2021-02-17 09:47:10,818 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-50
+2021-02-17 09:47:10,823 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-28
+2021-02-17 09:47:10,823 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-28
+2021-02-17 09:47:11,437 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-9
+2021-02-17 09:47:13,836 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-8
+2021-02-17 09:47:16,235 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-7
+2021-02-17 09:47:18,637 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-6
+2021-02-17 09:47:21,036 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-5
+2021-02-17 09:47:23,434 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-4
+2021-02-17 09:47:25,836 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-3
+2021-02-17 09:47:28,235 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-2
+2021-02-17 09:47:30,009 INFO o.a.j.r.Summariser: summary +   8988 in 00:00:30 =  299.9/s Avg:    90 Min:    17 Max:  1145 Err:  1008 (11.21%) Active: 24 Started: 49 Finished: 25
+2021-02-17 09:47:30,010 INFO o.a.j.r.Summariser: summary =  11326 in 00:00:59 =  190.7/s Avg:   106 Min:    17 Max:  1145 Err:  1267 (11.19%)
+2021-02-17 09:47:30,638 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-1
+2021-02-17 09:48:00,008 INFO o.a.j.r.Summariser: summary +   8863 in 00:00:30 =  295.4/s Avg:    84 Min:    17 Max:  1813 Err:   994 (11.22%) Active: 25 Started: 50 Finished: 25
+2021-02-17 09:48:00,009 INFO o.a.j.r.Summariser: summary =  20189 in 00:01:29 =  225.8/s Avg:    96 Min:    17 Max:  1813 Err:  2261 (11.20%)
+2021-02-17 09:48:30,005 INFO o.a.j.r.Summariser: summary +   9212 in 00:00:30 =  307.1/s Avg:    81 Min:    17 Max:  1124 Err:  1030 (11.18%) Active: 25 Started: 50 Finished: 25
+2021-02-17 09:48:30,009 INFO o.a.j.r.Summariser: summary =  29401 in 00:01:59 =  246.2/s Avg:    91 Min:    17 Max:  1813 Err:  3291 (11.19%)
+2021-02-17 09:48:30,867 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-200
+2021-02-17 09:48:31,102 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-199
+2021-02-17 09:48:31,337 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-198
+2021-02-17 09:48:31,569 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-197
+2021-02-17 09:48:31,803 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-196
+2021-02-17 09:48:32,037 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-195
+2021-02-17 09:48:32,267 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-194
+2021-02-17 09:48:32,500 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-193
+2021-02-17 09:48:32,735 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-192
+2021-02-17 09:48:32,968 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-191
+2021-02-17 09:48:33,203 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-190
+2021-02-17 09:48:33,438 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-189
+2021-02-17 09:48:33,671 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-188
+2021-02-17 09:48:33,904 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-187
+2021-02-17 09:48:34,137 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-186
+2021-02-17 09:48:34,370 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-185
+2021-02-17 09:48:34,600 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-184
+2021-02-17 09:48:34,835 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-183
+2021-02-17 09:48:35,068 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-182
+2021-02-17 09:48:35,301 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-181
+2021-02-17 09:48:35,537 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-180
+2021-02-17 09:48:35,767 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-179
+2021-02-17 09:48:36,000 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-178
+2021-02-17 09:48:36,236 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-177
+2021-02-17 09:48:36,470 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-176
+2021-02-17 09:48:36,705 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-175
+2021-02-17 09:48:36,938 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-174
+2021-02-17 09:48:37,171 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-173
+2021-02-17 09:48:37,403 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-172
+2021-02-17 09:48:37,636 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-171
+2021-02-17 09:48:37,869 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-170
+2021-02-17 09:48:38,102 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-169
+2021-02-17 09:48:38,335 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-168
+2021-02-17 09:48:38,570 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-167
+2021-02-17 09:48:38,802 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-166
+2021-02-17 09:48:39,037 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-165
+2021-02-17 09:48:39,269 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-164
+2021-02-17 09:48:39,507 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-163
+2021-02-17 09:48:39,735 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-162
+2021-02-17 09:48:39,967 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-161
+2021-02-17 09:48:40,201 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-160
+2021-02-17 09:48:40,439 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-159
+2021-02-17 09:48:40,671 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-158
+2021-02-17 09:48:40,904 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-157
+2021-02-17 09:48:41,137 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-156
+2021-02-17 09:48:41,369 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-155
+2021-02-17 09:48:41,601 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-154
+2021-02-17 09:48:41,834 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-153
+2021-02-17 09:48:42,069 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-152
+2021-02-17 09:48:42,301 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-151
+2021-02-17 09:48:42,538 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-150
+2021-02-17 09:48:42,775 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-149
+2021-02-17 09:48:43,000 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-148
+2021-02-17 09:48:43,234 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-147
+2021-02-17 09:48:43,467 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-146
+2021-02-17 09:48:43,705 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-145
+2021-02-17 09:48:43,938 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-144
+2021-02-17 09:48:44,169 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-143
+2021-02-17 09:48:44,403 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-142
+2021-02-17 09:48:44,636 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-141
+2021-02-17 09:48:44,869 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-140
+2021-02-17 09:48:45,102 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-139
+2021-02-17 09:48:45,334 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-138
+2021-02-17 09:48:45,571 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-137
+2021-02-17 09:48:45,802 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-136
+2021-02-17 09:48:46,034 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-135
+2021-02-17 09:48:46,269 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-134
+2021-02-17 09:48:46,501 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-133
+2021-02-17 09:48:46,737 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-132
+2021-02-17 09:48:46,970 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-131
+2021-02-17 09:48:47,200 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-130
+2021-02-17 09:48:47,438 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-129
+2021-02-17 09:48:47,668 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-128
+2021-02-17 09:48:47,906 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-127
+2021-02-17 09:48:48,186 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-126
+2021-02-17 09:48:48,369 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-125
+2021-02-17 09:48:48,603 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-124
+2021-02-17 09:48:48,835 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-123
+2021-02-17 09:48:49,069 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-122
+2021-02-17 09:48:49,304 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-121
+2021-02-17 09:48:49,535 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-120
+2021-02-17 09:48:49,770 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-119
+2021-02-17 09:48:50,003 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-118
+2021-02-17 09:48:50,239 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-117
+2021-02-17 09:48:50,472 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-116
+2021-02-17 09:48:50,705 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-115
+2021-02-17 09:48:50,938 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-114
+2021-02-17 09:48:51,167 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-113
+2021-02-17 09:48:51,403 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-112
+2021-02-17 09:48:51,636 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-111
+2021-02-17 09:48:51,869 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-110
+2021-02-17 09:48:52,102 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-109
+2021-02-17 09:48:52,334 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-108
+2021-02-17 09:48:52,567 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-107
+2021-02-17 09:48:52,800 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-106
+2021-02-17 09:48:53,036 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-105
+2021-02-17 09:48:53,268 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-104
+2021-02-17 09:48:53,503 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-103
+2021-02-17 09:48:53,914 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-102
+2021-02-17 09:48:53,967 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-101
+2021-02-17 09:48:54,205 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-100
+2021-02-17 09:48:54,438 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-99
+2021-02-17 09:48:54,711 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-98
+2021-02-17 09:48:54,901 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-97
+2021-02-17 09:48:55,137 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-96
+2021-02-17 09:48:55,368 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-95
+2021-02-17 09:48:55,602 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-94
+2021-02-17 09:48:55,837 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-93
+2021-02-17 09:48:56,067 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-92
+2021-02-17 09:48:56,302 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-91
+2021-02-17 09:48:56,538 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-90
+2021-02-17 09:48:56,772 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-89
+2021-02-17 09:48:57,000 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-88
+2021-02-17 09:48:57,234 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-87
+2021-02-17 09:48:57,472 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-86
+2021-02-17 09:48:57,703 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-85
+2021-02-17 09:48:57,938 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-84
+2021-02-17 09:48:58,171 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-83
+2021-02-17 09:48:58,426 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-82
+2021-02-17 09:48:58,638 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-81
+2021-02-17 09:48:58,869 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-80
+2021-02-17 09:48:59,102 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-79
+2021-02-17 09:48:59,335 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-78
+2021-02-17 09:48:59,568 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-77
+2021-02-17 09:48:59,802 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-76
+2021-02-17 09:49:00,003 INFO o.a.j.r.Summariser: summary +  18688 in 00:00:30 =  623.0/s Avg:   137 Min:    17 Max:  5031 Err:  2098 (11.23%) Active: 150 Started: 175 Finished: 25
+2021-02-17 09:49:00,004 INFO o.a.j.r.Summariser: summary =  48089 in 00:02:29 =  321.9/s Avg:   109 Min:    17 Max:  5031 Err:  5389 (11.21%)
+2021-02-17 09:49:00,038 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-75
+2021-02-17 09:49:00,338 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-74
+2021-02-17 09:49:00,518 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-73
+2021-02-17 09:49:00,735 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-72
+2021-02-17 09:49:00,968 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-71
+2021-02-17 09:49:01,205 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-70
+2021-02-17 09:49:01,438 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-69
+2021-02-17 09:49:01,671 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-68
+2021-02-17 09:49:01,914 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-67
+2021-02-17 09:49:02,137 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-66
+2021-02-17 09:49:02,372 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-65
+2021-02-17 09:49:02,605 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-64
+2021-02-17 09:49:02,834 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-63
+2021-02-17 09:49:03,069 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-62
+2021-02-17 09:49:03,301 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-61
+2021-02-17 09:49:03,534 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-60
+2021-02-17 09:49:03,774 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-59
+2021-02-17 09:49:04,003 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-58
+2021-02-17 09:49:04,234 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-57
+2021-02-17 09:49:04,468 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-56
+2021-02-17 09:49:04,705 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-55
+2021-02-17 09:49:04,946 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-54
+2021-02-17 09:49:05,185 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-53
+2021-02-17 09:49:05,404 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-52
+2021-02-17 09:49:05,636 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS_Ultimate_Thread_Group 1-51
+2021-02-17 09:49:30,004 INFO o.a.j.r.Summariser: summary +  19786 in 00:00:30 =  659.5/s Avg:   260 Min:    57 Max:  3230 Err:  2193 (11.08%) Active: 175 Started: 200 Finished: 25
+2021-02-17 09:49:30,007 INFO o.a.j.r.Summariser: summary =  67875 in 00:02:59 =  378.3/s Avg:   153 Min:    17 Max:  5031 Err:  7582 (11.17%)
+2021-02-17 09:49:40,868 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-200
+2021-02-17 09:49:40,868 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-200
+2021-02-17 09:49:41,099 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-198
+2021-02-17 09:49:41,099 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-198
+2021-02-17 09:49:41,118 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-197
+2021-02-17 09:49:41,118 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-197
+2021-02-17 09:49:41,121 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-194
+2021-02-17 09:49:41,122 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-194
+2021-02-17 09:49:41,148 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-199
+2021-02-17 09:49:41,149 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-199
+2021-02-17 09:49:41,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-196
+2021-02-17 09:49:41,221 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-196
+2021-02-17 09:49:41,251 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-192
+2021-02-17 09:49:41,251 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-192
+2021-02-17 09:49:41,301 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-193
+2021-02-17 09:49:41,302 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-193
+2021-02-17 09:49:41,452 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-195
+2021-02-17 09:49:41,452 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-195
+2021-02-17 09:49:41,488 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-191
+2021-02-17 09:49:41,488 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-191
+2021-02-17 09:49:41,525 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-190
+2021-02-17 09:49:41,525 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-190
+2021-02-17 09:49:41,642 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-189
+2021-02-17 09:49:41,643 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-189
+2021-02-17 09:49:41,661 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-187
+2021-02-17 09:49:41,661 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-187
+2021-02-17 09:49:41,794 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-186
+2021-02-17 09:49:41,794 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-186
+2021-02-17 09:49:41,820 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-185
+2021-02-17 09:49:41,821 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-185
+2021-02-17 09:49:41,853 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-183
+2021-02-17 09:49:41,853 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-183
+2021-02-17 09:49:41,896 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-184
+2021-02-17 09:49:41,896 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-184
+2021-02-17 09:49:41,921 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-182
+2021-02-17 09:49:41,921 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-182
+2021-02-17 09:49:41,983 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-181
+2021-02-17 09:49:41,983 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-181
+2021-02-17 09:49:42,085 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-188
+2021-02-17 09:49:42,085 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-188
+2021-02-17 09:49:42,241 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-180
+2021-02-17 09:49:42,242 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-180
+2021-02-17 09:49:42,246 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-179
+2021-02-17 09:49:42,246 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-179
+2021-02-17 09:49:42,325 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-176
+2021-02-17 09:49:42,325 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-176
+2021-02-17 09:49:42,337 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-177
+2021-02-17 09:49:42,337 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-177
+2021-02-17 09:49:42,432 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-175
+2021-02-17 09:49:42,433 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-175
+2021-02-17 09:49:42,443 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-178
+2021-02-17 09:49:42,443 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-178
+2021-02-17 09:49:42,470 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-174
+2021-02-17 09:49:42,470 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-174
+2021-02-17 09:49:42,523 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-173
+2021-02-17 09:49:42,524 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-173
+2021-02-17 09:49:42,735 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-172
+2021-02-17 09:49:42,735 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-172
+2021-02-17 09:49:42,805 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-171
+2021-02-17 09:49:42,805 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-171
+2021-02-17 09:49:42,845 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-168
+2021-02-17 09:49:42,845 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-168
+2021-02-17 09:49:42,857 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-170
+2021-02-17 09:49:42,857 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-170
+2021-02-17 09:49:42,870 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-169
+2021-02-17 09:49:42,871 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-169
+2021-02-17 09:49:43,087 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-167
+2021-02-17 09:49:43,087 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-167
+2021-02-17 09:49:43,126 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-166
+2021-02-17 09:49:43,126 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-166
+2021-02-17 09:49:43,262 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-162
+2021-02-17 09:49:43,262 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-162
+2021-02-17 09:49:43,480 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-164
+2021-02-17 09:49:43,480 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-164
+2021-02-17 09:49:43,665 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-163
+2021-02-17 09:49:43,665 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-163
+2021-02-17 09:49:43,672 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-160
+2021-02-17 09:49:43,672 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-160
+2021-02-17 09:49:43,677 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-165
+2021-02-17 09:49:43,677 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-165
+2021-02-17 09:49:43,681 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-161
+2021-02-17 09:49:43,682 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-161
+2021-02-17 09:49:43,699 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-159
+2021-02-17 09:49:43,699 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-159
+2021-02-17 09:49:43,728 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-157
+2021-02-17 09:49:43,728 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-157
+2021-02-17 09:49:43,778 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-156
+2021-02-17 09:49:43,778 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-156
+2021-02-17 09:49:43,813 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-158
+2021-02-17 09:49:43,813 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-158
+2021-02-17 09:49:43,910 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-154
+2021-02-17 09:49:43,911 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-154
+2021-02-17 09:49:44,005 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-153
+2021-02-17 09:49:44,006 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-153
+2021-02-17 09:49:44,018 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-155
+2021-02-17 09:49:44,018 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-155
+2021-02-17 09:49:44,040 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-151
+2021-02-17 09:49:44,040 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-151
+2021-02-17 09:49:44,042 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-150
+2021-02-17 09:49:44,042 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-150
+2021-02-17 09:49:44,087 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-152
+2021-02-17 09:49:44,087 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-152
+2021-02-17 09:49:44,181 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-149
+2021-02-17 09:49:44,181 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-149
+2021-02-17 09:49:44,269 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-148
+2021-02-17 09:49:44,269 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-148
+2021-02-17 09:49:44,285 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-147
+2021-02-17 09:49:44,285 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-147
+2021-02-17 09:49:44,371 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-146
+2021-02-17 09:49:44,371 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-146
+2021-02-17 09:49:44,383 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-145
+2021-02-17 09:49:44,384 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-145
+2021-02-17 09:49:44,520 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-144
+2021-02-17 09:49:44,521 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-144
+2021-02-17 09:49:44,636 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-142
+2021-02-17 09:49:44,636 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-142
+2021-02-17 09:49:44,662 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-143
+2021-02-17 09:49:44,662 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-143
+2021-02-17 09:49:44,774 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-140
+2021-02-17 09:49:44,774 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-140
+2021-02-17 09:49:44,841 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-141
+2021-02-17 09:49:44,842 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-141
+2021-02-17 09:49:44,845 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-138
+2021-02-17 09:49:44,845 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-138
+2021-02-17 09:49:44,857 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-139
+2021-02-17 09:49:44,857 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-139
+2021-02-17 09:49:44,908 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-137
+2021-02-17 09:49:44,908 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-137
+2021-02-17 09:49:44,987 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-136
+2021-02-17 09:49:44,987 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-136
+2021-02-17 09:49:45,118 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-135
+2021-02-17 09:49:45,118 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-135
+2021-02-17 09:49:45,223 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-133
+2021-02-17 09:49:45,223 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-133
+2021-02-17 09:49:45,264 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-132
+2021-02-17 09:49:45,265 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-132
+2021-02-17 09:49:45,290 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-134
+2021-02-17 09:49:45,291 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-134
+2021-02-17 09:49:45,386 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-131
+2021-02-17 09:49:45,386 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-131
+2021-02-17 09:49:45,596 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-129
+2021-02-17 09:49:45,596 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-129
+2021-02-17 09:49:45,602 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-130
+2021-02-17 09:49:45,602 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-130
+2021-02-17 09:49:45,676 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-127
+2021-02-17 09:49:45,677 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-127
+2021-02-17 09:49:45,732 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-128
+2021-02-17 09:49:45,733 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-128
+2021-02-17 09:49:45,760 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-125
+2021-02-17 09:49:45,760 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-125
+2021-02-17 09:49:45,820 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-126
+2021-02-17 09:49:45,820 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-126
+2021-02-17 09:49:45,869 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-124
+2021-02-17 09:49:45,869 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-124
+2021-02-17 09:49:45,879 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-123
+2021-02-17 09:49:45,879 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-123
+2021-02-17 09:49:46,009 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-122
+2021-02-17 09:49:46,010 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-122
+2021-02-17 09:49:46,014 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-121
+2021-02-17 09:49:46,014 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-121
+2021-02-17 09:49:46,102 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-119
+2021-02-17 09:49:46,102 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-119
+2021-02-17 09:49:46,183 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-120
+2021-02-17 09:49:46,185 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-120
+2021-02-17 09:49:46,284 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-118
+2021-02-17 09:49:46,284 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-118
+2021-02-17 09:49:46,296 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-117
+2021-02-17 09:49:46,297 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-117
+2021-02-17 09:49:46,435 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-116
+2021-02-17 09:49:46,435 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-116
+2021-02-17 09:49:46,508 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-115
+2021-02-17 09:49:46,509 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-115
+2021-02-17 09:49:46,524 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-114
+2021-02-17 09:49:46,525 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-114
+2021-02-17 09:49:46,558 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-113
+2021-02-17 09:49:46,558 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-113
+2021-02-17 09:49:46,619 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-112
+2021-02-17 09:49:46,620 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-112
+2021-02-17 09:49:46,648 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-111
+2021-02-17 09:49:46,649 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-111
+2021-02-17 09:49:46,728 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-110
+2021-02-17 09:49:46,728 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-110
+2021-02-17 09:49:46,850 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-109
+2021-02-17 09:49:46,850 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-109
+2021-02-17 09:49:46,975 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-106
+2021-02-17 09:49:46,975 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-106
+2021-02-17 09:49:47,125 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-105
+2021-02-17 09:49:47,125 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-105
+2021-02-17 09:49:47,131 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-107
+2021-02-17 09:49:47,131 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-107
+2021-02-17 09:49:47,162 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-104
+2021-02-17 09:49:47,162 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-104
+2021-02-17 09:49:47,205 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-103
+2021-02-17 09:49:47,205 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-103
+2021-02-17 09:49:47,289 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-102
+2021-02-17 09:49:47,290 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-102
+2021-02-17 09:49:47,332 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-101
+2021-02-17 09:49:47,332 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-101
+2021-02-17 09:49:47,397 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-100
+2021-02-17 09:49:47,397 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-100
+2021-02-17 09:49:47,489 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-99
+2021-02-17 09:49:47,489 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-99
+2021-02-17 09:49:47,513 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-98
+2021-02-17 09:49:47,513 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-98
+2021-02-17 09:49:47,624 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-97
+2021-02-17 09:49:47,624 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-97
+2021-02-17 09:49:47,649 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-96
+2021-02-17 09:49:47,649 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-96
+2021-02-17 09:49:47,724 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-95
+2021-02-17 09:49:47,724 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-95
+2021-02-17 09:49:47,780 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-94
+2021-02-17 09:49:47,780 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-94
+2021-02-17 09:49:47,888 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-93
+2021-02-17 09:49:47,888 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-93
+2021-02-17 09:49:47,998 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-91
+2021-02-17 09:49:47,999 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-91
+2021-02-17 09:49:48,078 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-92
+2021-02-17 09:49:48,079 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-92
+2021-02-17 09:49:48,111 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-90
+2021-02-17 09:49:48,111 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-90
+2021-02-17 09:49:48,187 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-89
+2021-02-17 09:49:48,187 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-89
+2021-02-17 09:49:48,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-88
+2021-02-17 09:49:48,224 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-88
+2021-02-17 09:49:48,322 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-87
+2021-02-17 09:49:48,322 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-87
+2021-02-17 09:49:48,364 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-86
+2021-02-17 09:49:48,364 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-86
+2021-02-17 09:49:48,415 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-85
+2021-02-17 09:49:48,415 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-85
+2021-02-17 09:49:48,481 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-84
+2021-02-17 09:49:48,482 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-84
+2021-02-17 09:49:48,509 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-83
+2021-02-17 09:49:48,509 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-83
+2021-02-17 09:49:48,652 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-81
+2021-02-17 09:49:48,652 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-81
+2021-02-17 09:49:48,708 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-80
+2021-02-17 09:49:48,708 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-80
+2021-02-17 09:49:48,774 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-82
+2021-02-17 09:49:48,774 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-82
+2021-02-17 09:49:48,877 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-79
+2021-02-17 09:49:48,877 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-79
+2021-02-17 09:49:48,983 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-77
+2021-02-17 09:49:48,983 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-77
+2021-02-17 09:49:49,007 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-76
+2021-02-17 09:49:49,008 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-76
+2021-02-17 09:49:49,022 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-78
+2021-02-17 09:49:49,023 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-78
+2021-02-17 09:49:49,112 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-75
+2021-02-17 09:49:49,113 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-75
+2021-02-17 09:49:49,238 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-74
+2021-02-17 09:49:49,238 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-74
+2021-02-17 09:49:49,294 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-73
+2021-02-17 09:49:49,294 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-73
+2021-02-17 09:49:49,371 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-71
+2021-02-17 09:49:49,371 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-71
+2021-02-17 09:49:49,372 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-72
+2021-02-17 09:49:49,372 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-72
+2021-02-17 09:49:49,415 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-70
+2021-02-17 09:49:49,415 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-70
+2021-02-17 09:49:49,434 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-69
+2021-02-17 09:49:49,434 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-69
+2021-02-17 09:49:49,590 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-68
+2021-02-17 09:49:49,590 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-68
+2021-02-17 09:49:49,658 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-66
+2021-02-17 09:49:49,658 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-66
+2021-02-17 09:49:49,683 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-67
+2021-02-17 09:49:49,683 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-67
+2021-02-17 09:49:49,707 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-65
+2021-02-17 09:49:49,707 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-65
+2021-02-17 09:49:49,798 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-64
+2021-02-17 09:49:49,798 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-64
+2021-02-17 09:49:49,859 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-63
+2021-02-17 09:49:49,859 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-63
+2021-02-17 09:49:49,929 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-62
+2021-02-17 09:49:49,929 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-62
+2021-02-17 09:49:50,085 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-61
+2021-02-17 09:49:50,085 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-61
+2021-02-17 09:49:50,105 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-59
+2021-02-17 09:49:50,105 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-59
+2021-02-17 09:49:50,136 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-60
+2021-02-17 09:49:50,137 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-60
+2021-02-17 09:49:50,178 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-58
+2021-02-17 09:49:50,178 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-58
+2021-02-17 09:49:50,241 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-57
+2021-02-17 09:49:50,241 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-57
+2021-02-17 09:49:50,427 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-55
+2021-02-17 09:49:50,427 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-55
+2021-02-17 09:49:50,456 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-56
+2021-02-17 09:49:50,456 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-56
+2021-02-17 09:49:50,460 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-54
+2021-02-17 09:49:50,460 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-54
+2021-02-17 09:49:50,569 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-52
+2021-02-17 09:49:50,569 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-52
+2021-02-17 09:49:50,573 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-53
+2021-02-17 09:49:50,573 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-53
+2021-02-17 09:49:50,707 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-51
+2021-02-17 09:49:50,708 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-51
+2021-02-17 09:49:56,414 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-108
+2021-02-17 09:49:56,414 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-108
+2021-02-17 09:50:00,007 INFO o.a.j.r.Summariser: summary +  14883 in 00:00:30 =  496.1/s Avg:   212 Min:    16 Max: 42180 Err:  1652 (11.10%) Active: 25 Started: 200 Finished: 175
+2021-02-17 09:50:00,008 INFO o.a.j.r.Summariser: summary =  82758 in 00:03:29 =  395.2/s Avg:   164 Min:    16 Max: 42180 Err:  9234 (11.16%)
+2021-02-17 09:50:30,006 INFO o.a.j.r.Summariser: summary +   8484 in 00:00:30 =  282.8/s Avg:    88 Min:    16 Max:   632 Err:   954 (11.24%) Active: 25 Started: 200 Finished: 175
+2021-02-17 09:50:30,009 INFO o.a.j.r.Summariser: summary =  91242 in 00:03:59 =  381.1/s Avg:   156 Min:    16 Max: 42180 Err: 10188 (11.17%)
+2021-02-17 09:51:00,001 INFO o.a.j.r.Summariser: summary +   9207 in 00:00:30 =  307.0/s Avg:    80 Min:    17 Max:  1492 Err:  1030 (11.19%) Active: 25 Started: 200 Finished: 175
+2021-02-17 09:51:00,004 INFO o.a.j.r.Summariser: summary = 100449 in 00:04:29 =  372.9/s Avg:   149 Min:    16 Max: 42180 Err: 11218 (11.17%)
+2021-02-17 09:51:30,003 INFO o.a.j.r.Summariser: summary +   8681 in 00:00:30 =  289.3/s Avg:    82 Min:    17 Max:  1133 Err:   968 (11.15%) Active: 25 Started: 200 Finished: 175
+2021-02-17 09:51:30,004 INFO o.a.j.r.Summariser: summary = 109130 in 00:04:59 =  364.5/s Avg:   144 Min:    16 Max: 42180 Err: 12186 (11.17%)
+2021-02-17 09:52:00,004 INFO o.a.j.r.Summariser: summary +   9174 in 00:00:30 =  305.8/s Avg:    85 Min:    17 Max: 42029 Err:  1022 (11.14%) Active: 25 Started: 200 Finished: 175
+2021-02-17 09:52:00,005 INFO o.a.j.r.Summariser: summary = 118304 in 00:05:29 =  359.2/s Avg:   140 Min:    16 Max: 42180 Err: 13208 (11.16%)
+2021-02-17 09:52:30,002 INFO o.a.j.r.Summariser: summary +   9132 in 00:00:30 =  304.4/s Avg:    81 Min:    16 Max:  1539 Err:  1021 (11.18%) Active: 25 Started: 200 Finished: 175
+2021-02-17 09:52:30,004 INFO o.a.j.r.Summariser: summary = 127436 in 00:05:59 =  354.6/s Avg:   135 Min:    16 Max: 42180 Err: 14229 (11.17%)
+2021-02-17 09:52:30,637 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-25
+2021-02-17 09:52:30,639 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-25
+2021-02-17 09:52:30,640 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-8
+2021-02-17 09:52:30,640 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-8
+2021-02-17 09:52:30,648 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-13
+2021-02-17 09:52:30,648 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-13
+2021-02-17 09:52:30,648 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-3
+2021-02-17 09:52:30,648 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-3
+2021-02-17 09:52:30,650 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-12
+2021-02-17 09:52:30,650 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-12
+2021-02-17 09:52:30,652 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-7
+2021-02-17 09:52:30,653 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-7
+2021-02-17 09:52:30,656 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-19
+2021-02-17 09:52:30,656 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-19
+2021-02-17 09:52:30,665 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-20
+2021-02-17 09:52:30,665 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-20
+2021-02-17 09:52:30,670 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-4
+2021-02-17 09:52:30,670 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-4
+2021-02-17 09:52:30,674 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-1
+2021-02-17 09:52:30,674 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-1
+2021-02-17 09:52:30,674 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-10
+2021-02-17 09:52:30,675 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-10
+2021-02-17 09:52:30,678 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-11
+2021-02-17 09:52:30,679 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-11
+2021-02-17 09:52:30,683 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-18
+2021-02-17 09:52:30,683 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-18
+2021-02-17 09:52:30,702 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-9
+2021-02-17 09:52:30,702 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-9
+2021-02-17 09:52:30,729 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-22
+2021-02-17 09:52:30,729 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-22
+2021-02-17 09:52:30,750 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-2
+2021-02-17 09:52:30,750 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-2
+2021-02-17 09:52:30,756 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-21
+2021-02-17 09:52:30,756 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-21
+2021-02-17 09:52:30,765 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-14
+2021-02-17 09:52:30,765 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-14
+2021-02-17 09:52:30,777 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-6
+2021-02-17 09:52:30,778 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-6
+2021-02-17 09:52:30,781 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-5
+2021-02-17 09:52:30,781 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-5
+2021-02-17 09:52:30,783 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-15
+2021-02-17 09:52:30,783 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-15
+2021-02-17 09:52:30,784 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-17
+2021-02-17 09:52:30,785 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-17
+2021-02-17 09:52:30,786 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-24
+2021-02-17 09:52:30,786 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-24
+2021-02-17 09:52:30,792 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-23
+2021-02-17 09:52:30,792 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-23
+2021-02-17 09:52:30,793 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS_Ultimate_Thread_Group 1-16
+2021-02-17 09:52:30,793 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS_Ultimate_Thread_Group 1-16
+2021-02-17 09:52:30,794 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-02-17 09:52:30,799 INFO o.a.j.r.Summariser: summary +    215 in 00:00:01 =  269.8/s Avg:    88 Min:    19 Max:   245 Err:    24 (11.16%) Active: 0 Started: 200 Finished: 200
+2021-02-17 09:52:30,799 INFO o.a.j.r.Summariser: summary = 127651 in 00:06:00 =  354.4/s Avg:   135 Min:    16 Max: 42180 Err: 14253 (11.17%)
+2021-02-17 09:52:30,801 INFO o.a.j.JMeter: Generating Dashboard
+2021-02-17 09:52:30,801 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-02-17 09:52:30,856 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-02-17 09:52:37,292 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-02-17 09:52:37,293 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-02-17 09:52:37,298 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-02-17 09:52:37,298 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-02-17 09:52:37,357 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-02-17 09:52:37,376 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-02-17 09:52:37,376 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-02-17 09:52:37,376 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-02-17 09:52:38,899 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-02-17 09:52:38,911 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-02-17 09:52:38,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-02-17 09:52:38,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-02-17 09:52:40,316 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-02-17 09:52:40,327 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 893557 samples
+2021-02-17 09:52:40,327 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-02-17 09:52:40,328 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-02-17 09:52:40,328 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-02-17 09:52:40,332 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-02-17 09:52:40,332 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-02-17 09:52:40,333 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-02-17 09:52:40,353 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-02-17 09:52:40,360 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-02-17 09:52:40,360 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-02-17 09:52:40,360 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-02-17 09:52:40,361 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 1914765 samples
+2021-02-17 09:52:40,361 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 382953 samples
+2021-02-17 09:52:40,361 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 127651 samples
+2021-02-17 09:52:40,362 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 127651 samples produced in 9s 440 ms on channel 0
+2021-02-17 09:52:40,362 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-02-17 09:52:40,599 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-02-17 09:52:40,599 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-02-17 09:52:40,600 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-02-17 09:52:40,602 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-02-17 09:52:40,602 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike/HTMLReports/statistics.json
+2021-02-17 09:52:40,706 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-02-17 09:52:40,713 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike/HTMLReports
+2021-02-17 09:52:40,958 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike/HTMLReports, creating folder structure
+2021-02-17 09:52:40,962 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/usr/local/Cellar/jmeter/5.4/libexec/bin/report-template' to '/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike/HTMLReports', got message: /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike/HTMLReports, found non empty folder with following content [/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/Spike/HTMLReports/statistics.json], will be ignored
+2021-02-17 09:52:41,830 INFO o.a.j.JMeter: Dashboard generated

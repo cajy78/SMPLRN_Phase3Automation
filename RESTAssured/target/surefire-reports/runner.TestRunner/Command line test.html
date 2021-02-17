@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 17 08:20:44 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12523 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User performs Delete Operation", "Enable Delete operation on REQRES API"<br/>
+<a href="#Output-973936431" onClick='toggleBox("Output-973936431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-973936431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-973936431">
+<div "result">REQRES API with Delete Operation (PASSED : 1s)</div><br/>
+<div "result">user sends a DELETE request (PASSED : 3s)</div><br/>
+<div "result">the response code received is 204 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get City Weather Data from OpenWeather API using City ID", "Retrieve City weather data"<br/>
+<a href="#Output-1418102907" onClick='toggleBox("Output-1418102907", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1418102907" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1418102907">
+<div "result">Open Weather API (PASSED : 0s)</div><br/>
+<div "result">User retrieves city weather using city 2172797 (PASSED : 1s)</div><br/>
+<div "result">response contains weather of city Cairns (PASSED : 0s)</div><br/>
+<div "result">response code equals 200 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get City Weather Data from OpenWeather API using City ID", "Retrieve City weather data"<br/>
+<a href="#Output-814753967" onClick='toggleBox("Output-814753967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-814753967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-814753967">
+<div "result">Open Weather API (PASSED : 0s)</div><br/>
+<div "result">User retrieves city weather using city 1275339 (PASSED : 0s)</div><br/>
+<div "result">response contains weather of city Mumbai (PASSED : 0s)</div><br/>
+<div "result">response code equals 200 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get City Weather Data from OpenWeather API using City ID", "Retrieve City weather data"<br/>
+<a href="#Output-1952194564" onClick='toggleBox("Output-1952194564", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1952194564" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1952194564">
+<div "result">Open Weather API (PASSED : 0s)</div><br/>
+<div "result">User retrieves city weather using city 2643743 (PASSED : 0s)</div><br/>
+<div "result">response contains weather of city London (PASSED : 0s)</div><br/>
+<div "result">response code equals 200 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get City Weather Data from OpenWeather API using City ID", "Retrieve City weather data"<br/>
+<a href="#Output-171160803" onClick='toggleBox("Output-171160803", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-171160803" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-171160803">
+<div "result">Open Weather API (PASSED : 0s)</div><br/>
+<div "result">User retrieves city weather using city 5128638 (PASSED : 0s)</div><br/>
+<div "result">response contains weather of city New York (PASSED : 0s)</div><br/>
+<div "result">response code equals 200 (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieve City weather from Open Weather API using Zip and Country Code", "Enable retrieving City Weather by Zip and Country Code"<br/>
+<a href="#Output-2057954324" onClick='toggleBox("Output-2057954324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2057954324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2057954324">
+<div "result">User accesses Open Weather API (PASSED : 0s)</div><br/>
+<div "result">User retrieves city weather using 400604 and IN (PASSED : 0s)</div><br/>
+<div "result">response code is 200 (PASSED : 0s)</div><br/>
+<div "result">response contains city weather information (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieve City weather from Open Weather API using Zip and Country Code", "Enable retrieving City Weather by Zip and Country Code"<br/>
+<a href="#Output-2113367449" onClick='toggleBox("Output-2113367449", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2113367449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2113367449">
+<div "result">User accesses Open Weather API (PASSED : 0s)</div><br/>
+<div "result">User retrieves city weather using SN1 and GB (PASSED : 0s)</div><br/>
+<div "result">response code is 200 (PASSED : 0s)</div><br/>
+<div "result">response contains city weather information (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User gets user-list from REQRES", "Enable GET operation on REQRES API"<br/>
+<a href="#Output-999699153" onClick='toggleBox("Output-999699153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-999699153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-999699153">
+<div "result">List of users in Page 2 (PASSED : 0s)</div><br/>
+<div "result">user requests user list via GET request (PASSED : 0s)</div><br/>
+<div "result">site should provide response code 200 (PASSED : 0s)</div><br/>
+<div "result">response from Page should contain the following user details (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User account creation Request to REQRES API", "Enable POST Operation on REQRES API"<br/>
+<a href="#Output-1512822728" onClick='toggleBox("Output-1512822728", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1512822728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1512822728">
+<div "result">POST API on Reqres (PASSED : 0s)</div><br/>
+<div "result">user posts morpheus and leader details to users API (PASSED : 0s)</div><br/>
+<div "result">status code in response is 201 (PASSED : 0s)</div><br/>
+<div "result">response contains the same user details (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User account update Request to REQRES API", "Enable PUT Operation on REQRES API"<br/>
+<a href="#Output-724886412" onClick='toggleBox("Output-724886412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-724886412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-724886412">
+<div "result">Update User API on Reqres (PASSED : 0s)</div><br/>
+<div "result">user sends updated user details to reqres users API (PASSED : 0s)</div><br/>
+<div "result">the status code in response is 200 (PASSED : 0s)</div><br/>
+<div "result">response contains the updated user details (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@7921b0a2</td></tr>
+</table><p>
+</body>
+</html>

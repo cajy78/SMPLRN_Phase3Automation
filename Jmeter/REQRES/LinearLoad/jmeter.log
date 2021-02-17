@@ -1,0 +1,291 @@
+2021-02-17 09:59:26,441 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-02-17 09:59:26,475 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4/libexec/bin/user.properties
+2021-02-17 09:59:26,476 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4/libexec/bin/system.properties
+2021-02-17 09:59:26,487 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-02-17 09:59:26,487 INFO o.a.j.JMeter: Version 5.4
+2021-02-17 09:59:26,487 INFO o.a.j.JMeter: java.version=15.0.1
+2021-02-17 09:59:26,487 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-02-17 09:59:26,488 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-02-17 09:59:26,488 INFO o.a.j.JMeter: os.arch=x86_64
+2021-02-17 09:59:26,488 INFO o.a.j.JMeter: os.version=10.15.7
+2021-02-17 09:59:26,488 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-02-17 09:59:26,488 INFO o.a.j.JMeter: java.awt.headless=true
+2021-02-17 09:59:26,488 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-02-17 09:59:26,489 INFO o.a.j.JMeter: Available Processors =4
+2021-02-17 09:59:26,501 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-02-17 09:59:26,501 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-02-17 09:59:26,501 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4/libexec
+2021-02-17 09:59:26,502 INFO o.a.j.JMeter: user.dir  =/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad
+2021-02-17 09:59:26,502 INFO o.a.j.JMeter: PWD       =/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad
+2021-02-17 09:59:26,504 INFO o.a.j.JMeter: IP: 192.168.1.28 Name: Cajetans-MacBook-Pro.local FullName: 192.168.1.28
+2021-02-17 09:59:26,510 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad/HTMLReports'
+2021-02-17 09:59:26,515 INFO o.a.j.s.FileServer: Default base='/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad'
+2021-02-17 09:59:26,516 INFO o.a.j.s.FileServer: Set new base='/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad'
+2021-02-17 09:59:26,770 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-02-17 09:59:26,808 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-02-17 09:59:26,813 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-02-17 09:59:26,819 INFO o.a.j.s.SaveService: Loading file: REQRES_Test_Plan_Load.jmx
+2021-02-17 09:59:26,891 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-17 09:59:26,891 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-17 09:59:26,892 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-17 09:59:26,892 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-17 09:59:26,892 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-02-17 09:59:26,892 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-02-17 09:59:26,993 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-02-17 09:59:27,000 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-02-17 09:59:27,000 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad/results.csv
+2021-02-17 09:59:27,001 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /usr/local/Cellar/jmeter/5.4/libexec/bin/reportgenerator.properties
+2021-02-17 09:59:27,003 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-02-17 09:59:27,011 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-02-17 09:59:27,016 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-02-17 09:59:27,016 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-02-17 09:59:27,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-02-17 09:59:27,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-02-17 09:59:27,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-02-17 09:59:27,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-02-17 09:59:27,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-02-17 09:59:27,019 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-02-17 09:59:27,025 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,025 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,025 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,027 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,027 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-17 09:59:27,028 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-02-17 09:59:27,029 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-02-17 09:59:27,029 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-02-17 09:59:27,031 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-02-17 09:59:27,031 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-02-17 09:59:27,031 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-02-17 09:59:27,039 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-02-17 09:59:27,040 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-02-17 09:59:27,041 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-02-17 09:59:27,048 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-02-17 09:59:27,048 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-02-17 09:59:27,165 INFO o.a.j.JMeter: Running test (1613536167165)
+2021-02-17 09:59:27,193 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : REQRES_REQUESTS
+2021-02-17 09:59:27,193 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group REQRES_REQUESTS.
+2021-02-17 09:59:27,194 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-02-17 09:59:27,194 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=70 delayedStart=false
+2021-02-17 09:59:27,214 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-1
+2021-02-17 09:59:27,267 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Cajetans-MacBook-Pro.local
+2021-02-17 09:59:27,287 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-02-17 09:59:27,290 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-02-17 09:59:27,291 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-02-17 09:59:27,291 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-02-17 09:59:27,291 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-02-17 09:59:27,303 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-02-17 09:59:27,303 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-02-17 09:59:27,466 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-02-17 09:59:27,478 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-02-17 09:59:27,478 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-02-17 09:59:27,635 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-02-17 09:59:27,639 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-02-17 09:59:27,639 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-02-17 09:59:28,607 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-2
+2021-02-17 09:59:29,998 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-3
+2021-02-17 09:59:30,029 INFO o.a.j.r.Summariser: summary +     28 in 00:00:03 =    9.8/s Avg:   134 Min:    20 Max:   542 Err:     3 (10.71%) Active: 3 Started: 3 Finished: 0
+2021-02-17 09:59:31,403 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-4
+2021-02-17 09:59:32,800 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-5
+2021-02-17 09:59:34,204 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-6
+2021-02-17 09:59:35,599 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-7
+2021-02-17 09:59:37,004 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-8
+2021-02-17 09:59:38,402 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-9
+2021-02-17 09:59:39,801 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-10
+2021-02-17 09:59:41,199 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-11
+2021-02-17 09:59:42,597 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-12
+2021-02-17 09:59:44,000 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-13
+2021-02-17 09:59:45,405 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-14
+2021-02-17 09:59:46,797 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-15
+2021-02-17 09:59:48,197 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-16
+2021-02-17 09:59:49,602 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-17
+2021-02-17 09:59:50,998 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-18
+2021-02-17 09:59:52,402 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-19
+2021-02-17 09:59:53,797 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-20
+2021-02-17 09:59:55,197 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-21
+2021-02-17 09:59:56,598 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-22
+2021-02-17 09:59:57,999 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-23
+2021-02-17 09:59:59,398 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-24
+2021-02-17 10:00:00,007 INFO o.a.j.r.Summariser: summary +   4828 in 00:00:30 =  161.0/s Avg:    81 Min:    17 Max:  1116 Err:   541 (11.21%) Active: 24 Started: 24 Finished: 0
+2021-02-17 10:00:00,008 INFO o.a.j.r.Summariser: summary =   4856 in 00:00:33 =  147.9/s Avg:    81 Min:    17 Max:  1116 Err:   544 (11.20%)
+2021-02-17 10:00:00,799 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-25
+2021-02-17 10:00:02,199 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-26
+2021-02-17 10:00:03,600 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-27
+2021-02-17 10:00:04,999 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-28
+2021-02-17 10:00:06,397 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-29
+2021-02-17 10:00:07,800 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-30
+2021-02-17 10:00:09,196 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-31
+2021-02-17 10:00:10,599 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-32
+2021-02-17 10:00:12,001 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-33
+2021-02-17 10:00:13,399 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-34
+2021-02-17 10:00:14,798 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-35
+2021-02-17 10:00:16,200 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-36
+2021-02-17 10:00:17,597 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-37
+2021-02-17 10:00:18,998 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-38
+2021-02-17 10:00:20,396 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-39
+2021-02-17 10:00:21,800 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-40
+2021-02-17 10:00:23,197 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-41
+2021-02-17 10:00:24,598 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-42
+2021-02-17 10:00:25,997 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-43
+2021-02-17 10:00:27,399 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-44
+2021-02-17 10:00:28,796 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-45
+2021-02-17 10:00:30,001 INFO o.a.j.r.Summariser: summary +  13015 in 00:00:30 =  433.9/s Avg:    79 Min:    17 Max:   596 Err:  1454 (11.17%) Active: 45 Started: 45 Finished: 0
+2021-02-17 10:00:30,001 INFO o.a.j.r.Summariser: summary =  17871 in 00:01:03 =  284.4/s Avg:    80 Min:    17 Max:  1116 Err:  1998 (11.18%)
+2021-02-17 10:00:30,196 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-46
+2021-02-17 10:00:31,599 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-47
+2021-02-17 10:00:32,996 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-48
+2021-02-17 10:00:34,396 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-49
+2021-02-17 10:00:35,798 INFO o.a.j.t.JMeterThread: Thread started: REQRES_REQUESTS 1-50
+2021-02-17 10:01:00,001 INFO o.a.j.r.Summariser: summary +  19559 in 00:00:30 =  652.0/s Avg:    75 Min:    16 Max:   457 Err:  2192 (11.21%) Active: 50 Started: 50 Finished: 0
+2021-02-17 10:01:00,002 INFO o.a.j.r.Summariser: summary =  37430 in 00:01:33 =  403.2/s Avg:    77 Min:    16 Max:  1116 Err:  4190 (11.19%)
+2021-02-17 10:01:30,002 INFO o.a.j.r.Summariser: summary +  19119 in 00:00:30 =  637.3/s Avg:    78 Min:    17 Max: 11697 Err:  2134 (11.16%) Active: 50 Started: 50 Finished: 0
+2021-02-17 10:01:30,005 INFO o.a.j.r.Summariser: summary =  56549 in 00:02:03 =  460.4/s Avg:    78 Min:    16 Max: 11697 Err:  6324 (11.18%)
+2021-02-17 10:01:57,215 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-3
+2021-02-17 10:01:57,217 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-3
+2021-02-17 10:01:57,237 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-8
+2021-02-17 10:01:57,238 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-8
+2021-02-17 10:01:57,242 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-9
+2021-02-17 10:01:57,242 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-9
+2021-02-17 10:01:57,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-12
+2021-02-17 10:01:57,256 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-12
+2021-02-17 10:01:57,273 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-25
+2021-02-17 10:01:57,273 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-25
+2021-02-17 10:01:57,277 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-23
+2021-02-17 10:01:57,277 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-23
+2021-02-17 10:01:57,286 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-34
+2021-02-17 10:01:57,286 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-34
+2021-02-17 10:01:57,293 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-31
+2021-02-17 10:01:57,293 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-31
+2021-02-17 10:01:57,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-6
+2021-02-17 10:01:57,305 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-6
+2021-02-17 10:01:57,306 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-49
+2021-02-17 10:01:57,306 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-49
+2021-02-17 10:01:57,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-32
+2021-02-17 10:01:57,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-16
+2021-02-17 10:01:57,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-1
+2021-02-17 10:01:57,314 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-32
+2021-02-17 10:01:57,315 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-16
+2021-02-17 10:01:57,315 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-1
+2021-02-17 10:01:57,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-35
+2021-02-17 10:01:57,315 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-35
+2021-02-17 10:01:57,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-27
+2021-02-17 10:01:57,315 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-27
+2021-02-17 10:01:57,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-21
+2021-02-17 10:01:57,317 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-21
+2021-02-17 10:01:57,318 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-42
+2021-02-17 10:01:57,318 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-29
+2021-02-17 10:01:57,318 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-42
+2021-02-17 10:01:57,318 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-29
+2021-02-17 10:01:57,320 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-10
+2021-02-17 10:01:57,320 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-14
+2021-02-17 10:01:57,320 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-10
+2021-02-17 10:01:57,320 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-14
+2021-02-17 10:01:57,322 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-39
+2021-02-17 10:01:57,323 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-39
+2021-02-17 10:01:57,323 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-28
+2021-02-17 10:01:57,323 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-28
+2021-02-17 10:01:57,328 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-48
+2021-02-17 10:01:57,329 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-48
+2021-02-17 10:01:57,332 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-15
+2021-02-17 10:01:57,332 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-11
+2021-02-17 10:01:57,332 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-15
+2021-02-17 10:01:57,332 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-11
+2021-02-17 10:01:57,335 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-41
+2021-02-17 10:01:57,336 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-41
+2021-02-17 10:01:57,336 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-46
+2021-02-17 10:01:57,336 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-46
+2021-02-17 10:01:57,337 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-22
+2021-02-17 10:01:57,337 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-22
+2021-02-17 10:01:57,337 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-7
+2021-02-17 10:01:57,338 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-7
+2021-02-17 10:01:57,338 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-2
+2021-02-17 10:01:57,338 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-2
+2021-02-17 10:01:57,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-20
+2021-02-17 10:01:57,339 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-20
+2021-02-17 10:01:57,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-44
+2021-02-17 10:01:57,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-47
+2021-02-17 10:01:57,340 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-44
+2021-02-17 10:01:57,340 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-47
+2021-02-17 10:01:57,340 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-24
+2021-02-17 10:01:57,340 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-5
+2021-02-17 10:01:57,341 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-24
+2021-02-17 10:01:57,341 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-5
+2021-02-17 10:01:57,347 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-33
+2021-02-17 10:01:57,348 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-33
+2021-02-17 10:01:57,349 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-38
+2021-02-17 10:01:57,349 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-38
+2021-02-17 10:01:57,364 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-40
+2021-02-17 10:01:57,364 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-40
+2021-02-17 10:01:57,364 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-26
+2021-02-17 10:01:57,364 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-4
+2021-02-17 10:01:57,365 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-26
+2021-02-17 10:01:57,365 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-4
+2021-02-17 10:01:57,365 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-17
+2021-02-17 10:01:57,365 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-17
+2021-02-17 10:01:57,377 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-19
+2021-02-17 10:01:57,377 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-19
+2021-02-17 10:01:57,380 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-36
+2021-02-17 10:01:57,380 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-36
+2021-02-17 10:01:57,383 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-37
+2021-02-17 10:01:57,383 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-37
+2021-02-17 10:01:57,388 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-30
+2021-02-17 10:01:57,389 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-30
+2021-02-17 10:01:57,393 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-13
+2021-02-17 10:01:57,394 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-13
+2021-02-17 10:01:57,394 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-50
+2021-02-17 10:01:57,394 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-50
+2021-02-17 10:01:57,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-43
+2021-02-17 10:01:57,400 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-43
+2021-02-17 10:01:57,439 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-45
+2021-02-17 10:01:57,439 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-45
+2021-02-17 10:01:57,464 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: REQRES_REQUESTS 1-18
+2021-02-17 10:01:57,464 INFO o.a.j.t.JMeterThread: Thread finished: REQRES_REQUESTS 1-18
+2021-02-17 10:01:57,465 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-02-17 10:01:57,468 INFO o.a.j.r.Summariser: summary +  16424 in 00:00:27 =  598.0/s Avg:    83 Min:    17 Max:   900 Err:  1843 (11.22%) Active: 0 Started: 50 Finished: 50
+2021-02-17 10:01:57,469 INFO o.a.j.r.Summariser: summary =  72973 in 00:02:30 =  485.5/s Avg:    79 Min:    16 Max: 11697 Err:  8167 (11.19%)
+2021-02-17 10:01:57,469 INFO o.a.j.JMeter: Generating Dashboard
+2021-02-17 10:01:57,470 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-02-17 10:01:57,503 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-02-17 10:02:00,339 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-02-17 10:02:00,340 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-02-17 10:02:00,345 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-02-17 10:02:00,345 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-02-17 10:02:00,383 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-02-17 10:02:00,392 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-02-17 10:02:00,392 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-02-17 10:02:00,393 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-02-17 10:02:01,317 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-02-17 10:02:01,325 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-02-17 10:02:01,326 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-02-17 10:02:01,327 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-02-17 10:02:02,022 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-02-17 10:02:02,027 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 510811 samples
+2021-02-17 10:02:02,027 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-02-17 10:02:02,027 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-02-17 10:02:02,027 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-02-17 10:02:02,030 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-02-17 10:02:02,030 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-02-17 10:02:02,030 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-02-17 10:02:02,041 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-02-17 10:02:02,044 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-02-17 10:02:02,045 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-02-17 10:02:02,045 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-02-17 10:02:02,045 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 1094595 samples
+2021-02-17 10:02:02,045 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 218919 samples
+2021-02-17 10:02:02,046 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 72973 samples
+2021-02-17 10:02:02,047 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 72973 samples produced in 4s 487 ms on channel 0
+2021-02-17 10:02:02,047 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-02-17 10:02:02,306 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-02-17 10:02:02,306 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-02-17 10:02:02,307 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-02-17 10:02:02,309 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-02-17 10:02:02,309 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad/HTMLReports/statistics.json
+2021-02-17 10:02:02,385 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-02-17 10:02:02,390 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad/HTMLReports
+2021-02-17 10:02:02,597 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad/HTMLReports, creating folder structure
+2021-02-17 10:02:02,601 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/usr/local/Cellar/jmeter/5.4/libexec/bin/report-template' to '/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad/HTMLReports', got message: /Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad/HTMLReports, found non empty folder with following content [/Users/cajetanfernandes/OneDrive/Documents/Studies_and_Certs/Automation_Testing_Masters/Phase_3/Assessment/Jmeter/REQRES/LinearLoad/HTMLReports/statistics.json], will be ignored
+2021-02-17 10:02:03,605 INFO o.a.j.JMeter: Dashboard generated
